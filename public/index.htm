@@ -1,0 +1,111 @@
+<html>
+
+<head>
+	<p>
+		<font size="1" color="black"><a href="http://t.me/TNEGABSU" target="_blank">@TNEGABSU</a></font>
+	</p>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Jata Test</title>
+	<link rel="stylesheet" href="/index.css">
+	<script type="text/javascript" src="/index.js"></script>
+</head>
+
+<body>
+	<div class="contain">
+
+
+
+
+
+		<div id="Desc"><br><br>
+			<span class="txt2">
+				Jata for Test</span>
+			<br>
+			<span class="txt3">
+				A simple opensource website <br>(with no license agreement yet :D)<br> for booklet deals.<br></span>
+			<br><br><input class="button" name="HideDes" id="hdds" value="Got it!!!" onclick="hidemain(); " style="background: rgb(80, 0, 80) none repeat scroll 0% 0%; font-size: 125%;"
+			 type="button">
+		</div>
+
+
+
+
+
+		<div id="MainDiv" style="opacity: 0;">
+			<select id="FacultySelect" class="select" onchange="NewwPage();">
+			</select>
+			<input class="select" name="SubmitNB" id="SubNB" value="+ New" onclick="NewBookl(); " style="background: rgb(80, 0, 80) none repeat scroll 0% 0%; font-size: 135%;"
+			 type="button">
+			<hr>
+			<hr>
+			<div id="wCont">
+				<div id="PG">
+
+						
+				</div>
+				<div id="SRT">
+
+				</div>
+			</div>
+			<div id="MainDivi">
+				<table id="t01">
+					<tr>
+						<th>LessonName</th>
+						<th>ProffName</th>
+						<th>Date</th>
+						<th>More</th>
+					</tr>
+				</table>
+				<div class="pagination">
+						<a onclick="GetBLs(FacultySelect.selectedIndex,GIPage - 1,GDccIndex,GDcc);">❮</a>
+						<a id="PageInd" style="font-size: 120%;">1</a>
+						<a onclick="GetBLs(FacultySelect.selectedIndex,GIPage + 1,GDccIndex,GDcc);">❯</a>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+		<div id="NewBokk" style="opacity: 0; display: none;">
+			<br><br>
+			<span class="txt2">
+				New Booklet assign</span>
+			<br><br><br><br>
+			<br><br><span class="txt3">Phone Number: </span><input class="inputbox0" name="BPhN" id="PhN" value="09148870000"
+			 onclick=" " style="background: rgb(0, 0, 0) none repeat scroll 0% 0%; font-size: 150%;" type="text">
+			<br><br><span class="txt3">Your Email: </span><input class="inputbox0" name="BEml" id="Eml" value="youremail@test.com"
+			 onclick=" " style="background: rgb(0, 0, 0) none repeat scroll 0% 0%; font-size: 150%;" type="text">
+			<br><br><span class="txt3">
+				Don't reuse your bank password, we didn't spend a lot on security for this app :D :D :D</span>
+			<br><span class="txt3">Password: </span><input class="inputbox0" name="SBpass" id="Spass" value="Password" onclick=" "
+			 style="background: rgb(0, 0, 0) none repeat scroll 0% 0%; font-size: 150%;" type="password">
+			<br><br><span class="txt3">ReEnter : </span><input class="inputbox0" name="SBpass2" id="Spass2" value="Password"
+			 onclick=" " style="background: rgb(0, 0, 0) none repeat scroll 0% 0%; font-size: 150%;" type="password">
+			<br><br><select id="FacultySelectN" class="selectt">
+			</select>
+			<br><br><span class="txt3">Lesson Name: </span><input class="inputbox0" name="BLeN" id="LeN" value="نام درس" onclick=" "
+			 style="background: rgb(0, 0, 0) none repeat scroll 0% 0%; font-size: 120%;" type="text">
+			<br><br><span class="txt3">Proff Name: </span><input class="inputbox0" name="BProffN" id="ProffN" value="نام استاد"
+			 onclick=" " style="background: rgb(0, 0, 0) none repeat scroll 0% 0%; font-size: 120%;" type="text">
+			<br><br><label for="Descr" class="txt3">Description: </label><input class="inputbox1" name="BDescr" id="Descr" value="توضیحات"
+			 onclick=" " style="background: rgb(0, 0, 0) none repeat scroll 0% 0%; font-size: 120%;" type="text">
+			<br><br>
+			<input class="button" name="SubmitNewB" id="BSubmitNewB" value="Submit" onclick="SendNewB();" style="background: rgb(40, 0, 40) none repeat scroll 0% 0%; font-size: 150%;"
+			 type="button">
+			<div id="msgres">
+			</div>
+		</div>
+
+
+
+
+
+	</div>
+</body>
+
+</html>
